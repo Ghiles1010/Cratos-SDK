@@ -1,0 +1,29 @@
+# Include essential files
+include README.md
+include requirements.txt
+
+# Include the main package
+recursive-include cratos *.py
+
+# Exclude test files
+exclude test_*.py
+exclude test_*.ipynb
+exclude *.ipynb
+
+# Exclude development files  
+exclude .gitignore
+recursive-exclude examples *
+recursive-exclude dist *
+recursive-exclude build *
+recursive-exclude *.egg-info *
+recursive-exclude __pycache__ *
+exclude ~/*
+
+# Exclude IDE and OS files
+exclude .vscode
+exclude .idea
+recursive-exclude . *.pyc
+recursive-exclude . *.pyo
+recursive-exclude . *~
+exclude .DS_Store
+exclude Thumbs.db 
