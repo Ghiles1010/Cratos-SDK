@@ -16,7 +16,7 @@
 ```bash
 git clone https://github.com/Ghiles1010/Cratos-SDK.git
 cd Cratos-SDK
-pip install -e .
+pip install .
 ```
 
 ## Quick Start
